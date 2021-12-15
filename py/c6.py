@@ -70,7 +70,7 @@ for key, value in user_0.items():
     print("\nKey: " + key)
     print("Value: " + value)
 
-# 8.3.2
+#6.3.2
 print("\n")
 fav_lang = {
     'jen':'python',
@@ -81,6 +81,54 @@ fav_lang = {
 
 for name in fav_lang.keys():
     print(name.title())
+
+
+
+print("\n")
+fav_lang = {
+    'jen':'python',
+    'sarah':'c',
+    'ben':'java',
+    'bill':'ruby',
+    }
+
+friends = ['bill', 'sarah']
+for name in fav_lang.keys():
+    print(name.title())
+
+    if name in friends:
+        print("Hi " + name.title() +
+                ", I see your fav lang is " + 
+                fav_lang[name].title() + ".")
+
+
+print("\n")
+fav_lang = {
+    'jen':'python',
+    'sarah':'c',
+    'ben':'java',
+    'bill':'ruby',
+    }
+
+if 'erin' not in fav_lang.keys():
+    print("Erin, please take the poll.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
